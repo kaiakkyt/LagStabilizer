@@ -1,0 +1,90 @@
+# warning! this will be changed pretty often! 
+# sooooooo if you use the newest version of this plugin and there is config.yml changes...
+# you will have to add the new categories yourself, especially if you don't use default configuration!
+
+auto-clear-interval-seconds: 300
+monitor-interval-minutes: 30
+tps-warning-threshold: 13.0
+enable-tps-auto-reset: false
+tps-reset-threshold: 2.5
+tps-stable-threshold: 18.0
+tps-moderate-threshold: 14.0
+ping-good-threshold: 50
+ping-fair-threshold: 150
+
+blacklist:
+  - DIAMOND
+  - DIAMOND_BLOCK
+  - EMERALD
+  - EMERALD_BLOCK
+  - NETHER_STAR
+  - ANCIENT_DEBRIS
+  - NETHERITE_SCRAP
+  - NETHERITE_INGOT
+  - NETHERITE_BLOCK
+  - DRAGON_EGG
+  - TOTEM_OF_UNDYING
+  - ENCHANTED_GOLDEN_APPLE
+  - ELYTRA
+  - BEACON
+  - END_CRYSTAL
+  - TRIDENT
+  - HEART_OF_THE_SEA
+  - CONDUIT
+  - NETHERITE_SWORD
+  - NETHERITE_PICKAXE
+  - NETHERITE_AXE
+  - NETHERITE_SHOVEL
+  - NETHERITE_HOE
+  - NETHERITE_HELMET
+  - NETHERITE_CHESTPLATE
+  - NETHERITE_LEGGINGS
+  - NETHERITE_BOOTS
+  - SHULKER_BOX
+  - WHITE_SHULKER_BOX
+  - ORANGE_SHULKER_BOX
+  - MAGENTA_SHULKER_BOX
+  - LIGHT_BLUE_SHULKER_BOX
+  - YELLOW_SHULKER_BOX
+  - LIME_SHULKER_BOX
+  - PINK_SHULKER_BOX
+  - GRAY_SHULKER_BOX
+  - LIGHT_GRAY_SHULKER_BOX
+  - CYAN_SHULKER_BOX
+  - PURPLE_SHULKER_BOX
+  - BLUE_SHULKER_BOX
+  - BROWN_SHULKER_BOX
+  - GREEN_SHULKER_BOX
+  - RED_SHULKER_BOX
+  - BLACK_SHULKER_BOX
+  - MUSIC_DISC_11
+  - MUSIC_DISC_13
+  - MUSIC_DISC_CAT
+  - MUSIC_DISC_BLOCKS
+  - MUSIC_DISC_CHIRP
+  - MUSIC_DISC_FAR
+  - MUSIC_DISC_MALL
+  - MUSIC_DISC_MELLOHI
+  - MUSIC_DISC_STAL
+  - MUSIC_DISC_STRAD
+  - MUSIC_DISC_WARD
+  - MUSIC_DISC_WAIT
+  - MUSIC_DISC_OTHERSIDE
+  - MUSIC_DISC_5
+  - MUSIC_DISC_PIGSTEP
+  - COMMAND_BLOCK
+  - CHAIN_COMMAND_BLOCK
+  - REPEATING_COMMAND_BLOCK
+  - BARRIER
+  - STRUCTURE_BLOCK
+  - STRUCTURE_VOID
+  - JIGSAW
+  - DEBUG_STICK
+  - SPAWNER
+
+# do not change unless u know what ur doing :/
+network-latency-hosts:
+  - 8.8.8.8
+  - 1.1.1.1
+network-connect-port: 53
+network-timeout-ms: 500

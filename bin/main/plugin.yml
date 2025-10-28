@@ -1,0 +1,27 @@
+name: LagStabilizer
+main: kaiakk.lagStabilizer.LagStabilizer
+version: 2.0.1
+api-version: 1.13
+author: KaiakK
+description: A performance and stability plugin that monitors TPS, RAM, CPU, etc. and clears lag sources.
+website: https://modrinth.com/plugin/lagstabilizer
+
+commands:
+  stabilizer:
+    description: Main command for LagStabilizer.
+    usage: /stabilizer <clean|tps|ram|cpu|storage|network|gpu|disk|world|debug|info>
+    permission: lagstabilizer.command.stabilizer
+    permission-message: "&cYou do not have permission to use /stabilizer."
+  ping:
+    description: Check a player's ping.
+    usage: /ping [player]
+    permission: lagstabilizer.command.ping
+    permission-message: "&cYou do not have permission to use /ping."
+
+permissions:
+  lagstabilizer.command.stabilizer:
+    description: Allows use of /stabilizer commands.
+    default: op
+  lagstabilizer.command.ping:
+    description: Allows use of /ping.
+    default: true

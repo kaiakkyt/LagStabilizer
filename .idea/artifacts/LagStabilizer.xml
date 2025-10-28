@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LagStabilizer">
+    <output-path>$PROJECT_DIR$/out/artifacts/LagStabilizer</output-path>
+    <root id="archive" name="LagStabilizer.jar">
+      <element id="module-output" name="LagStabilizer.main" />
+      <element id="module-source" name="LagStabilizer.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <element id="directory" name="extras">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/message.txt" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/lsarchived.txt" />
+      </element>
+    </root>
+  </artifact>
+</component>
